@@ -1,0 +1,24 @@
+{
+    "[python]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    "python.sortImports.args": [
+      "--src=${workspaceFolder}"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylintArgs": ["--enable=W0614"],
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "autopep8",
+    "editor.rulers": [81],
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 81,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+      "reportMissingTypeStubs": "none"
+    },
+    "python.pythonPath": "venv/bin/python"
+}
